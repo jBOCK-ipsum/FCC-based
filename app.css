@@ -1,0 +1,90 @@
+html {
+   background-color: #FEFDFD;
+}
+h1 {
+   color: #5A5262;
+   font-family: 'Recursive', sans-serif;
+   font-weight: 800;
+   font-size: 28px;
+   margin: 20px 0 20px 0;
+   text-align: center;
+   text-decoration: underline;
+}
+
+#nav {
+   display: block;
+   flex-direction: column;
+   position: fixed;
+   border: 2px solid #e0e0eb;
+   float: left;
+   height: 100vh;
+   margin: -10px 0 0 -1cm;
+   padding-right: 15px;
+   overflow: scroll;
+   z-index: 99;
+}
+#nav a {   
+   display: flex;
+   margin: 15px;;
+}
+.nav-item {
+   list-style-type: none;
+   border-top: 1px solid #b3b3cc;
+   text-align: left;
+   line-height: 20px;
+   width: 300px;
+}
+.nav-link {
+   font-family: 'Recursive', sans-serif;
+   font-size: 15px;
+   text-decoration: none;
+   color: #5A5959;
+}
+.nav-link:hover {
+   color: #000000;
+   text-indent: 30px;
+}
+
+h2 {
+   margin: 0 2cm 0 10cm;
+   font-weight: 800;
+   font-size: 22px;
+}
+p {
+   margin: 0 2cm 0 11cm;
+   font-size: 14px;;
+}
+
+#alreadylist {
+   margin-left: 11cm;
+   line-height: 22px;
+}
+ #image {
+   width: 500px;
+   height: auto;
+   margin: 0 10cm 15px 14cm;
+ }
+
+ #mainbody {
+   font-family: 'Recursive', sans-serif;
+   z-index: 20;
+ }
+
+ #button {
+   position: fixed; /* Fixed/sticky position */
+   bottom: 20px; /* Place the button at the bottom of the page */
+   right: 30px; /* Place the button 30px from the right */
+   z-index: 1000; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   background-color: #5A5262; /* Set a background color */
+   color: white; /* Text color */
+   cursor: pointer; /* Add a mouse pointer on hover */
+   padding: 15px; /* Some padding */
+   border-radius: 10px; /* Rounded corners */
+   font-size: 14px; /* Increase font size */
+   font-family: 'Recursive', sans-serif;
+ }
+ #button:hover {
+   background-color: slategrey;
+ }
